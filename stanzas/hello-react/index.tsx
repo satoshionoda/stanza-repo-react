@@ -15,11 +15,17 @@ function toCamelCase(params: Record<string, unknown>) {
 export default class HelloReact extends Stanza {
   async render() {
     const props = toCamelCase(this.params);
-    ReactDOM.render(<App {...props} />, this.root.querySelector("main"));
+    ReactDOM.render(
+      <App {...(props as any)} />,
+      this.root.querySelector("main")
+    );
   }
 
   handleAttributeChange() {
     const props = toCamelCase(this.params);
-    ReactDOM.render(<App {...props} />, this.root.querySelector("main"));
+    ReactDOM.render(
+      <App {...(props as any)} />,
+      this.root.querySelector("main")
+    );
   }
 }
