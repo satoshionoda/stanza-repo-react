@@ -9251,13 +9251,11 @@ var version = "0.0.1";
 var license = "MIT";
 var repository = "";
 var dependencies = {
-	"@rollup/plugin-typescript": "^8.2.5",
 	"@types/lodash.camelcase": "^4.3.6",
 	"lodash.camelcase": "^4.3.0",
 	react: "^17.0.2",
 	"react-dom": "^17.0.2",
-	togostanza: "^3.0.0-beta.30",
-	typescript: "^4.4.3"
+	togostanza: "^3.0.0-beta.33"
 };
 var engines = {
 	node: ">=14"
@@ -9338,4 +9336,4 @@ script.render = render;
 script.__file = "node_modules/togostanza/src/components/Layout.vue";
 
 export { Fragment as F, createElementBlock as a, renderList as b, createBlock as c, defineComponent as d, createBaseVNode as e, createCommentVNode as f, createApp as g, computed as h, createTextVNode as i, ref as j, octicons as k, createVNode as l, mergeProps as m, normalizeClass as n, openBlock as o, normalizeProps as p, guardReactiveProps as q, resolveComponent as r, script as s, toDisplayString as t, resolveDynamicComponent as u, pushScopeId as v, withCtx as w, popScopeId as x, n as y };
-//# sourceMappingURL=Layout-4782d7da.js.map
+//# sourceMappingURL=Layout-e9485920.js.map
