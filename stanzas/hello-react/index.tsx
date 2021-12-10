@@ -4,6 +4,8 @@ import camelCase from "lodash.camelcase";
 import Stanza from "togostanza/stanza";
 import App from "./App";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function toCamelCase(params: Record<string, unknown>) {
   const camelCaseParams: Record<string, unknown> = {};
   Object.entries(params).forEach(([key, value]) => {

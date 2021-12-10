@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "react-bootstrap/Button";
 
 const App = ({ sayTo }: { sayTo: string }) => {
   const [count, setCount] = useState(0);
@@ -14,7 +15,7 @@ const App = ({ sayTo }: { sayTo: string }) => {
         Hello <i>{sayTo}</i>
       </p>
       <p>{count} time(s) clicked</p>
-      <button onClick={handleClick}>Click this</button>
+      <Button onClick={handleClick}>Click this</Button>
     </div>
   );
 };
